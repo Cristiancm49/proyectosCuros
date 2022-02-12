@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Tu peso en los difetentes planetas </title>
+  </head>
+  <body>
+
+
+  <h1> Tu peso en otro planeta </h1>
+  <p> En la tierra pesas distinto que en marte o jupiter </p>
+  <script>
+    var usuario = prompt ("Cual es tu peso?");
+    var planeta = prompt ("Elije un planeta: : 1) marte 2) jupiter ")
+    planeta = parseInt (planeta);
+    var peso = parseInt(usuario);
+    var gravedad_tierra = 9.8;
+    var gravedad_marte = 3.7;
+    var gravedad_jupiter= 24.8;
+    var peso_final;
+
+    if (planeta == 1) {
+      peso_final = peso * gravedad_marte / gravedad_tierra;
+      peso_final=parseInt(peso_final);
+      document.write("Tu peso en marte es de <strong>" + peso_final + " Kilos</strong>");
+    } else if (planeta == 2){
+      peso_final = peso * gravedad_jupiter / gravedad_tierra;
+      peso_final=parseInt(peso_final);
+      document.write("Tu peso en jupiter es de <strong>" + peso_final + " Kilos</strong>");
+
+    } else {
+      peso_final = 1000000000000;
+      document.write("Tu peso es de <strong>" + peso_final + " Kilos</strong>");
+    }
+
+  </script>
+  </body>
+</html>
