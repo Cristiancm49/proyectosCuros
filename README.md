@@ -1,2 +1,2 @@
-# proyectosCuros
+# proyectosCurso
 Realizado en cursos de  JavaS
