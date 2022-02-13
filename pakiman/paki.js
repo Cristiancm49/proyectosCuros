@@ -4,9 +4,9 @@ imagenes["Pokacho"] = "pollo.png";
 imagenes["Tocinaurio"] = "cerdo.png";
 
 
-var cauchin = new Pakiman("Cauchin", 110, 30);
-var pokacho = new Pakiman ("Pokacho", 100, 50);
-var tocinaurio = new Pakiman("Tocinaurio", 140, 40);
+var cauchin = new Pakiman("Cauchin", 120, 50);
+var pokacho = new Pakiman ("Pokacho", 140, 50);
+var tocinaurio = new Pakiman("Tocinaurio", 140, 60);
 
 
 var coleccion = [];
